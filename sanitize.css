@@ -28,7 +28,7 @@
 
 /**
  * 1. Use the default cursor in all browsers (opinionated).
- * 2. Use the default user interface font in all browsers (opinionated).
+ * 2. REMOVED - Use the default user interface font in all browsers (opinionated).
  * 3. Correct the line height in all browsers.
  * 4. Use a 4-space tab width in all browsers (opinionated).
  * 5. Prevent adjustments of font size after orientation changes in
@@ -38,20 +38,6 @@
 
 html {
   cursor: default; /* 1 */
-  font-family:
-    system-ui,
-    /* macOS 10.11-10.12 */ -apple-system,
-    /* Windows 6+ */ Segoe UI,
-    /* Android 4+ */ Roboto,
-    /* Ubuntu 10.10+ */ Ubuntu,
-    /* Gnome 3+ */ Cantarell,
-    /* KDE Plasma 4+ */ Oxygen,
-    /* fallback */ sans-serif,
-    /* macOS emoji */ "Apple Color Emoji",
-    /* Windows emoji */ "Segoe UI Emoji",
-    /* Windows emoji */ "Segoe UI Symbol",
-    /* Linux emoji */ "Noto Color Emoji"; /* 2 */
-
   line-height: 1.15; /* 3 */
   -moz-tab-size: 4; /* 4 */
   tab-size: 4; /* 4 */

@@ -1,0 +1,51 @@
+/* CSS Variables */
+
+:root {
+    --main-font: "Roboto", sans-serif;
+    --main-color: #FFF;
+}
+
+/* Blocks */
+
+.landing-container {
+    background-image: url("images/landing-background-image.jpg");
+    background-position: 60% 0;
+    background-size: auto 100%;
+    height: 100vh;
+}
+
+/* Elements */
+
+.landing-container__title {
+    margin: 0;
+    margin-right: 23vw;
+    padding-top: 100px;
+
+    font-family: var(--main-font);
+    font-weight: 900;
+    font-size: calc(1.4em + 6vw);
+    text-align: center;
+    color: var(--main-color);
+}
+
+.container__nav-button-bg {
+    width: 100vw;
+    height: 36px;
+    
+    position: absolute;
+    bottom: 0;
+
+    background-color: rgba(0, 0, 0, 0.80);
+}
+
+.container__nav-button-arrow-down {
+    width: 32px;
+    height: 32px;
+
+    display: block;
+    margin: auto;
+
+    filter: invert(100%);
+}
+
+/* Modifiers */
