@@ -14,9 +14,16 @@
     height: 100vh;
 }
 
+.life-container {
+    background-image: url("images/life-background-image.jpg");
+    background-position: 50% 0;
+    background-size: auto 100%;
+    height: 100vh;
+}
+
 /* Elements */
 
-.landing-container__title {
+.container__title {
     margin: 0;
     margin-right: 23vw;
     padding-top: 100px;
@@ -28,7 +35,17 @@
     color: var(--main-color);
 }
 
-.container__nav-button-bg {
+.container__nav-button-top-bg {
+    width: 100vw;
+    height: 36px;
+    
+    position: absolute;
+    top: 0;
+
+    background-color: rgba(0, 0, 0, 0.80);
+}
+
+.container__nav-button-bottom-bg {
     width: 100vw;
     height: 36px;
     
@@ -36,6 +53,17 @@
     bottom: 0;
 
     background-color: rgba(0, 0, 0, 0.80);
+}
+
+.container__nav-button-arrow-up {
+    width: 32px;
+    height: 32px;
+    transform: rotate(180deg);
+
+    display: block;
+    margin: auto;
+
+    filter: invert(100%);
 }
 
 .container__nav-button-arrow-down {
@@ -49,3 +77,14 @@
 }
 
 /* Modifiers */
+
+.container__title__center {
+    margin: 0;
+    padding-top: 50px;
+
+    font-family: var(--main-font);
+    font-weight: 900;
+    font-size: calc(2em + 4vw);
+    text-align: center;
+    color: var(--main-color);
+}
