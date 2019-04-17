@@ -15,6 +15,7 @@
 .landing-container {
     background-image: url("images/landing-background-image.jpg");
     background-position: 60% 0;
+    height: 100vh;
 }
 
 /* Elements */
@@ -33,7 +34,7 @@
     width: 100vw;
     height: 36px;
     
-    position: absolute;
+    position: relative;
 
     background-color: rgba(0, 0, 0, 0.80);
 }
@@ -55,6 +56,10 @@
     padding-top: 100px;
 
     font-size: calc(1.4em + 6vw);
+}
+
+.landing-nav {
+    position: absolute;
 }
 
 .nav-bottom {
