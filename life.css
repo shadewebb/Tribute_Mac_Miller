@@ -7,10 +7,11 @@
 }
 
 .main-wrapper {
-    margin: 0 20px;
     padding: 0 10px;
     font-family: var(--main-font);
     color: var(--main-color);
+    width: 95%;
+    min-width: 360px;
 }
 
 /* Elements */

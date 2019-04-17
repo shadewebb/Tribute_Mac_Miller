@@ -1,0 +1,12 @@
+/* Blocks */
+
+.albums-container {
+    background-image: url("images/albums-background-image.jpg");
+    background-position: 30% 0;
+}
+
+.title-center {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: calc(2em + 4vw);
+}
