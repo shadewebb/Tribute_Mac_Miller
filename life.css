@@ -6,6 +6,7 @@
 }
 
 .main-wrapper {
+    margin: 0 20px;
     padding: 0 10px;
     font-family: var(--main-font);
     color: var(--main-color);
@@ -40,12 +41,6 @@
     font-size: calc(2em + 4vw);
 }
 
-.card-2 {
-    position: relative;
-    bottom: 60px;
-    left: 2px;
-}
-
 .card-left {
     grid-template-columns: 20px auto;
 }
@@ -53,6 +48,11 @@
 .card-right {
     grid-template-columns: auto 20px;
     text-align: right;
+}
+
+.card-2 {
+    position: relative;
+    bottom: 60px;
 }
 
 .card-title-left {
@@ -102,7 +102,7 @@
 }
 
 .card-1__line-2 {
-    width: 90vw;
+    width: calc(100% - 18px);
     height: 2px;
 
     position: relative;
@@ -117,9 +117,41 @@
     height: 40px;
 
     position: relative;
+    left: calc(100% - 11px);
+    bottom: 32px;
+
+    background-color: #fff;
+}
+
+.card-2__line-1 {
+    width: 2px;
+    height: 45px;
+
+    position: relative;
+    left: 9px;
+    bottom: 30px;
+
+    background-color: #fff;
+}
+
+.card-2__line-2 {
+    width: 90vw;
+    height: 2px;
+
+    position: relative;
+    left: 9px;
+    bottom: 30px;
+
+    background-color: #fff;
+}
+
+.card-2__line-3 {
+    width: 2px;
+    height: 40px;
+
+    position: relative;
     left: calc(9px + 90vw);
     bottom: 32px;
 
     background-color: #fff;
-
 }
