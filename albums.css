@@ -41,6 +41,16 @@ Blocks
     width: 200px;
 }
 
+.info-container {
+    width: calc(100% - 30px);
+    height: 200px;
+
+    margin: 40px auto;
+    padding-top: 1px;
+
+    background-color: rgba(14, 14, 14, 0.801);
+}
+
 /*****
 Elements 
 *****/
@@ -53,6 +63,11 @@ Elements
     text-align: center;
     margin: 10px auto;
     font-size: 1.25em;
+}
+
+.info-container h2,
+h3 {
+    text-align: center;
 }
 
 /*****
