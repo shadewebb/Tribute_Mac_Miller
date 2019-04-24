@@ -1,4 +1,6 @@
-/* Blocks */
+/***** 
+Blocks 
+*****/
 
 .albums-container {
     background-image: url("images/albums-background-image.jpg");
@@ -23,7 +25,6 @@
     grid-auto-flow: column;
     grid-column-gap: 20px;
 
-    padding: 0 15px;
     width: 100%;
 
     overflow-x: scroll;
@@ -40,14 +41,30 @@
     width: 200px;
 }
 
-/* Elements */
+/*****
+Elements 
+*****/
 
 .album-image {
-    min-height: 150px;
-    height: 25vh;
+    width: 100%;
 }
 
 .album-name {
     text-align: center;
-    margin: 0 auto;
+    margin: 10px auto;
+    font-size: 1.25em;
+}
+
+/*****
+Modifiers
+*****/
+
+#album-1 {
+    margin-left: 15px;
+}
+
+/* Quick fix for border-box effect, adding padding requires adding width */
+#album-5 {
+    padding-right: 15px;
+    width: 215px;
 }
