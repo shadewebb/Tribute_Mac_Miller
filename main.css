@@ -20,7 +20,6 @@ body {
 .landing-container {
     background-image: url("images/landing-background-image.jpg");
     background-position: 60% 0;
-    height: 100vh;
 }
 
 /* Elements */
